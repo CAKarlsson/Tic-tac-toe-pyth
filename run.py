@@ -32,7 +32,7 @@ def run_game():
 
         handle_turn(current_player)
         check_if_game_over()
-        swap_player()
+        flip_player()
         global board
         if winner == "X" or winner == "O":
             print(winner "wins!")
